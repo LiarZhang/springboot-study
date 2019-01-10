@@ -1,0 +1,7 @@
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-nodes: 127.0.0.1:9304,127.0.0.1:9305,127.0.0.1:9306
+      cluster-name: my-es2.x-application #my-application
