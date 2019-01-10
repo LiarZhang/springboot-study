@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf1b7109-fe7f-4635-9704-f0ee3149cd84" name="Default Changelist" comment="" />
+    <list default="true" id="cf1b7109-fe7f-4635-9704-f0ee3149cd84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/common/EnumStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/mail/SendSimpleMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/task/ClusterStatusTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/ClusterStatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-https/target/" />
@@ -30,87 +42,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="51" />
-          <entry key="java" value="50" />
+          <entry key="class" value="58" />
+          <entry key="java" value="57" />
           <entry key="json" value="2" />
           <entry key="password" value="1" />
-          <entry key="pom" value="14" />
+          <entry key="pom" value="15" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="10" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="51" />
-          <entry key="JAVA" value="50" />
+          <entry key="CLASS" value="58" />
+          <entry key="JAVA" value="57" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="25" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3003" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="3448" />
           <entry key="properties" value="37" />
-          <entry key="xml" value="75" />
-          <entry key="yml" value="112" />
+          <entry key="xml" value="78" />
+          <entry key="yml" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3003" />
+          <entry key="JAVA" value="3448" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="37" />
-          <entry key="XML" value="75" />
-          <entry key="YAML" value="112" />
+          <entry key="XML" value="78" />
+          <entry key="YAML" value="145" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="49" column="28" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="49" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/CityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4890">
-              <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/config/ESConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-293">
-              <caret line="13" column="27" selection-start-line="12" selection-start-column="1" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,11 +126,15 @@
         <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/Application.java" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/service/impl/CityServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/domain/City.java" />
-        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/config/ElasticSearchConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/common/EnumStatus.java" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/ClusterStatusController.java" />
-        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/task/ClusterStatusController.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/task/ClusterStatusTask.java" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/mail/SendSimpleMail.java" />
       </list>
     </option>
   </component>
@@ -193,7 +171,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -212,66 +192,6 @@
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-elasticsearch6x" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -288,7 +208,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547109905263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547121094978" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -318,6 +238,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="SendSimpleMail.sendSimpleMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-elasticsearch6x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xf.zhang.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xf.zhang.mail" />
+      <option name="MAIN_CLASS_NAME" value="com.xf.zhang.mail.SendSimpleMail" />
+      <option name="METHOD_NAME" value="sendSimpleMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-elasticsearch6x" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xf.zhang.Application" />
@@ -344,7 +280,13 @@
       <item itemvalue="Spring Boot.SpringbootHttpsApplication" />
       <item itemvalue="Spring Boot.SpringbootElasticsearchApplication" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.SendSimpleMail.sendSimpleMail" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SendSimpleMail.sendSimpleMail" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -361,18 +303,28 @@
       <workItem from="1546502497420" duration="30223000" />
       <workItem from="1546826900300" duration="4391000" />
       <workItem from="1546927818366" duration="4889000" />
-      <workItem from="1547089132423" duration="8502000" />
+      <workItem from="1547089132423" duration="16472000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SendSimpleMail_sendSimpleMail - 2019.01.10 at 18h 58m 12s.xml">
+      <configuration name="SendSimpleMail.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendSimpleMail_sendSimpleMail - 2019.01.10 at 18h 59m 06s.xml">
+      <configuration name="SendSimpleMail.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SendSimpleMail_sendSimpleMail - 2019.01.10 at 19h 02m 22s.xml">
+      <configuration name="SendSimpleMail.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77564000" />
+    <option name="totallyTimeSpent" value="85534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,7 +334,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.29508197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.35409835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,83 +366,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.3.RELEASE/spring-data-elasticsearch-3.1.3.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1286">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-elasticsearch/1.5.18.RELEASE/spring-boot-starter-data-elasticsearch-1.5.18.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6.jar!/org/elasticsearch/client/transport/support/TransportProxyClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/config/ESConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/config/ElasticSearchConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/SpringbootElasticsearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/service/CityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/repository/CityRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/2.4.6/elasticsearch-2.4.6.jar!/org/elasticsearch/index/query/RangeQueryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="235" column="41" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/controller/CityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -644,16 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/domain/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -665,13 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6870">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2377">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -717,16 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/ClusterStatusController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/config/ElasticSearchConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="709">
@@ -737,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="49" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.5.4/elasticsearch-6.5.4.jar!/org/elasticsearch/client/support/AbstractClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -751,27 +592,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/config/ESConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="390">
+          <caret line="13" column="27" selection-start-line="12" selection-start-column="1" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/CityController.java">
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/domain/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4890">
-          <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/config/ESConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.5.4/elasticsearch-6.5.4.jar!/org/elasticsearch/action/admin/cluster/health/ClusterHealthResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="13" column="27" selection-start-line="12" selection-start-column="1" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="109">
+          <caret line="212" column="14" selection-start-line="212" selection-start-column="11" selection-end-line="212" selection-end-column="14" />
+          <folding>
+            <element signature="e#9528#9529#0" expanded="true" />
+            <element signature="e#9587#9588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/net/NetworkClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-mail/1.5.18.RELEASE/spring-boot-starter-mail-1.5.18.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.21.RELEASE/spring-context-support-4.3.21.RELEASE.jar!/org/springframework/mail/javamail/JavaMailSender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.21.RELEASE/spring-context-support-4.3.21.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3100">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.21.RELEASE/spring-context-support-4.3.21.RELEASE.jar!/org/springframework/mail/MailSender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.21.RELEASE/spring-context-support-4.3.21.RELEASE.jar!/org/springframework/mail/javamail/JavaMailSenderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1570">
+          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.18.RELEASE/spring-boot-autoconfigure-1.5.18.RELEASE.jar!/org/springframework/boot/autoconfigure/mail/MailProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4590">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/common/EnumStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/mail/SendSimpleMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/java/com/xf/zhang/task/ClusterStatusTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>

@@ -5,5 +5,11 @@ spring:
         enabled: true
       cluster-nodes: 127.0.0.1:9300,127.0.0.1:9301,127.0.0.1:9302
       cluster-name: my-application #es6
+
+  mail:
+    host: smtp.qq.com
+    username: 2532466427@qq.com
+    password: esgfikdakljnecii #授权码
+
 server:
   port: 8888
