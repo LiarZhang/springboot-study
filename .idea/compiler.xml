@@ -9,6 +9,7 @@
         <module name="springboot-elasticsearch" />
         <module name="springboot-elasticsearch6x" />
         <module name="springboot-https" />
+        <module name="springboot-redis" />
         <module name="springboot-study" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-elasticsearch6x" target="1.8" />
       <module name="springboot-https" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
       <module name="springboot-study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
