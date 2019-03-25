@@ -1,4 +1,4 @@
-package com.xf.zhang.config;
+package com.xf.zhang.springbootsentinel.config;
 
 import com.alibaba.csp.sentinel.adapter.servlet.CommonFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import javax.servlet.Filter;
+
 
 @Configuration
 public class FilterConfig {

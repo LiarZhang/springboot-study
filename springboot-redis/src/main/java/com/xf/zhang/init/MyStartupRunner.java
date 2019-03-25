@@ -26,10 +26,10 @@ public class MyStartupRunner implements CommandLineRunner {
     public void run(String... strings) throws Exception {
 
         List<User> list= userMapper.selectAll();
-        list.forEach(action->{
-            redisTemplate.opsForZSet().add("userList",action,action.getId());
-            logger.info(action.toString());
-        });
+//        list.forEach(action->{
+//            redisTemplate.opsForZSet().add("userList",action,action.getId());
+//            logger.info(action.toString());
+//        });
 
     }
 }

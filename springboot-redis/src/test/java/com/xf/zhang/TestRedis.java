@@ -55,7 +55,7 @@ public class TestRedis {
 //        }
 
        // list.forEach(action->System.out.println(action.toString()));
-
+        //redisTemplate.opsForList().rightPushAll()
         System.out.println(redisTemplate.opsForList().index("list",0));
         System.out.println(redisTemplate.opsForList().size("list"));
         System.out.println(redisTemplate.opsForList().range("list",0,8));

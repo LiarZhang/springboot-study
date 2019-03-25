@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf1b7109-fe7f-4635-9704-f0ee3149cd84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartupRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/TestRedis.java" afterDir="false" />
+    <list default="true" id="cf1b7109-fe7f-4635-9704-f0ee3149cd84" name="Default Changelist" comment="22">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-https/src/test/java/com/xf/zhang/SpringbootHttpsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-https/src/test/java/com/xf/zhang/SpringbootHttpsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/SpringbootRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/SpringbootRedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartupRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartupRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/impl/UserserviceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/impl/UserserviceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/TestRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sentinel/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sentinel/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FlowQps.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FlowQps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +23,7 @@
     <ignored path="$PROJECT_DIR$/springboot-elasticsearch/target/" />
     <ignored path="$PROJECT_DIR$/springboot-elasticsearch6x/target/" />
     <ignored path="$PROJECT_DIR$/springboot-redis/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-sentinel/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/SpringbootRedisApplication.java">
+        <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/impl/UserserviceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="400">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,34 +48,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java">
+        <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartupRunner.java">
+        <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/controller/SentinelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-https/src/main/java/com/xf/zhang/config/TomcatConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="622">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/SpringbootSentinelApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/TestRedis.java">
+        <entry file="file://$PROJECT_DIR$/springboot-sentinel/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="325">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,13 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-https/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-https/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-https/src/main/java/com/xf/zhang/config/TomcatConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/config/ESConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/service/impl/impl/CityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/service/CityService.java" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/SpringbootElasticsearchApplication.java" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/config/ElasticSearchConfig.java" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/xf/zhang/repository/CityRepository.java" />
@@ -133,22 +161,33 @@
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/mapper/TestMapper.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/Userservice.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/UserserviceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/UserService.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/impl/UserserviceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-https/src/test/java/com/xf/zhang/SpringbootHttpsApplicationTests.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/SpringbootHttpsApplicationTests.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/SpringbootRedisApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartupRunner.java" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/MyFilter.java" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/FlowQps.java" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/FilterConfig.java" />
         <option value="$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/TestRedis.java" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/controller/SentinelController.java" />
+        <option value="$PROJECT_DIR$/springboot-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/controller/SentinelController.java" />
+        <option value="$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FlowQps.java" />
+        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/impl/UserserviceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-sentinel/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-https/src/main/java/com/xf/zhang/config/TomcatConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-sentinel/.gitignore" />
       </list>
     </option>
   </component>
@@ -177,9 +216,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="371" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -203,8 +243,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,109 +255,100 @@
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-https" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-https" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-https" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-https" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-https" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-https" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sentinel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootsentinel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootsentinel" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-sentinel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,6 +357,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -334,7 +366,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552654256741" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553511434268" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gitRepo/yxy-edu" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -343,6 +375,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xf.zhang.springbootsentinel.config" />
+      <recent name="com.xf.zhang.springbootsentinel.controller" />
       <recent name="com.xf.zhang" />
       <recent name="com.xf.zhang.domain" />
     </key>
@@ -366,87 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRedis.testRedisZSet">
-    <configuration name="TestRedis.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xf.zhang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xf.zhang" />
-      <option name="MAIN_CLASS_NAME" value="com.xf.zhang.TestRedis" />
-      <option name="METHOD_NAME" value="testRedis" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRedis.testRedisList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xf.zhang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xf.zhang" />
-      <option name="MAIN_CLASS_NAME" value="com.xf.zhang.TestRedis" />
-      <option name="METHOD_NAME" value="testRedisList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRedis.testRedisObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xf.zhang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xf.zhang" />
-      <option name="MAIN_CLASS_NAME" value="com.xf.zhang.TestRedis" />
-      <option name="METHOD_NAME" value="testRedisObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRedis.testRedisSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xf.zhang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xf.zhang" />
-      <option name="MAIN_CLASS_NAME" value="com.xf.zhang.TestRedis" />
-      <option name="METHOD_NAME" value="testRedisSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRedis.testRedisZSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xf.zhang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xf.zhang" />
-      <option name="MAIN_CLASS_NAME" value="com.xf.zhang.TestRedis" />
-      <option name="METHOD_NAME" value="testRedisZSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringbootSentinelApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-elasticsearch6x" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xf.zhang.Application" />
@@ -472,6 +426,14 @@
     <configuration name="SpringbootRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-redis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xf.zhang.SpringbootRedisApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-sentinel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xf.zhang.springbootsentinel.SpringbootSentinelApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -481,21 +443,8 @@
       <item itemvalue="Spring Boot.SpringbootElasticsearchApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.SpringbootRedisApplication" />
-      <item itemvalue="JUnit.TestRedis.testRedis" />
-      <item itemvalue="JUnit.TestRedis.testRedisObject" />
-      <item itemvalue="JUnit.TestRedis.testRedisList" />
-      <item itemvalue="JUnit.TestRedis.testRedisSet" />
-      <item itemvalue="JUnit.TestRedis.testRedisZSet" />
+      <item itemvalue="Spring Boot.SpringbootSentinelApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestRedis.testRedisZSet" />
-        <item itemvalue="JUnit.TestRedis.testRedisSet" />
-        <item itemvalue="JUnit.TestRedis.testRedisList" />
-        <item itemvalue="JUnit.TestRedis.testRedisObject" />
-        <item itemvalue="JUnit.TestRedis.testRedis" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -518,8 +467,41 @@
       <workItem from="1551927676502" duration="15515000" />
       <workItem from="1552026130476" duration="596000" />
       <workItem from="1552026951051" duration="13943000" />
-      <workItem from="1552528600807" duration="25346000" />
+      <workItem from="1552528600807" duration="25403000" />
+      <workItem from="1552896492627" duration="27506000" />
+      <workItem from="1553236424971" duration="600000" />
+      <workItem from="1553241802651" duration="2507000" />
+      <workItem from="1553480357023" duration="3362000" />
     </task>
+    <task id="LOCAL-00001" summary="22">
+      <created>1553511060402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553511060402</updated>
+    </task>
+    <task id="LOCAL-00002" summary="22">
+      <created>1553511081200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553511081200</updated>
+    </task>
+    <task id="LOCAL-00003" summary="22">
+      <created>1553511134003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553511134003</updated>
+    </task>
+    <task id="LOCAL-00004" summary="22">
+      <created>1553511166293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553511166293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -555,13 +537,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157953000" />
+    <option name="totallyTimeSpent" value="191985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -571,19 +553,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.4902386" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41323212" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.43817788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5173536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.4175705" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.38503253" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.335141" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.39045554" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="14" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Problems" order="14" sideWeight="0.49946696" weight="0.62255967" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -601,151 +583,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22" />
+    <option name="LAST_COMMIT_MESSAGE" value="22" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar!/org/springframework/cache/annotation/Cacheable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.17.RELEASE/spring-data-redis-1.8.17.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="e#2943#2944#0" expanded="true" />
-            <element signature="e#3001#3002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.17.RELEASE/spring-data-redis-1.8.17.RELEASE.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar!/org/springframework/cache/interceptor/CacheInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar!/org/springframework/cache/interceptor/CacheAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="218" column="68" selection-start-line="218" selection-start-column="49" selection-end-line="218" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar!/org/springframework/cache/annotation/CacheEvict.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/annotation/Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1505">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/reflect/Executable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="349" column="22" lean-forward="true" selection-start-line="349" selection-start-column="11" selection-end-line="349" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="637" column="51" lean-forward="true" selection-start-line="637" selection-start-column="26" selection-end-line="637" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-https/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar!/org/springframework/cache/annotation/CacheConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar!/org/springframework/cache/interceptor/KeyGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Hashing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/hash/Hashing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2812" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/hash/Hashing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/javassist/javassist/3.24.1-GA/javassist-3.24.1-GA.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.11.3/jackson-databind-2.8.11.3.jar!/com/fasterxml/jackson/databind/util/JSONPObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -753,36 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="62" column="21" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/impl/UserserviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="64" column="77" selection-start-line="64" selection-start-column="77" selection-end-line="64" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,13 +630,6 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/1.5.18.RELEASE/spring-boot-starter-test-1.5.18.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-https/src/test/java/com/xf/zhang/SpringbootHttpsApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -950,36 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/SpringbootRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartupRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.17.RELEASE/spring-data-redis-1.8.17.RELEASE-sources.jar!/org/springframework/data/redis/core/ZSetOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -987,13 +762,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/TestRedis.java">
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/MyFilter.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartupRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="384">
+          <caret line="31" column="13" selection-start-line="28" selection-start-column="10" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba/0.2.0.RELEASE/spring-cloud-alibaba-0.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1875" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel/0.2.0.RELEASE/spring-cloud-alibaba-sentinel-0.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.10.RELEASE/spring-data-redis-2.0.10.RELEASE.jar!/org/springframework/data/redis/core/ListOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/test/java/com/xf/zhang/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/FlowQps.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-web-servlet/1.3.0-GA/sentinel-web-servlet-1.3.0-GA.jar!/com/alibaba/csp/sentinel/adapter/servlet/CommonFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/SpringbootRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-web-servlet/1.3.0-GA/sentinel-web-servlet-1.3.0-GA-sources.jar!/com/alibaba/csp/sentinel/adapter/servlet/CommonFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/FilterConfig.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/controller/SentinelController.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/config/FlowQps.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sentinel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/init/MyStartListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1626">
+          <caret line="153" column="41" selection-start-line="153" selection-start-column="41" selection-end-line="153" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1422#1451#1" expanded="true" />
+            <element signature="e#2308#2354#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.21.RELEASE/spring-context-4.3.21.RELEASE.jar!/org/springframework/cache/annotation/CacheConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="28" selection-start-line="28" selection-end-line="32" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/service/impl/UserserviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis/src/main/java/com/xf/zhang/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-https/src/main/java/com/xf/zhang/config/TomcatConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/controller/SentinelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sentinel/src/main/java/com/xf/zhang/springbootsentinel/SpringbootSentinelApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-sentinel/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>

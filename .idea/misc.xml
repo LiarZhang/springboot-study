@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-elasticsearch6x/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sentinel/pom.xml" />
       </list>
     </option>
   </component>

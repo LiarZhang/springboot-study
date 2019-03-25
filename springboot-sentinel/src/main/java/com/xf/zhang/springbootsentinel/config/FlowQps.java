@@ -1,4 +1,4 @@
-package com.xf.zhang.config;
+package com.xf.zhang.springbootsentinel.config;
 
 import com.alibaba.csp.sentinel.Entry;
 import com.alibaba.csp.sentinel.SphU;

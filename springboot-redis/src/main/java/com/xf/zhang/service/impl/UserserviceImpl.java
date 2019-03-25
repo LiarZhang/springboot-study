@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CacheConfig(cacheNames = "Manager")
+//@CacheConfig(cacheNames = "Manager")
 @Service
 public class UserserviceImpl implements UserService {
 
@@ -26,6 +26,7 @@ public class UserserviceImpl implements UserService {
     @Cacheable(value="Manager", keyGenerator = "keyGenerator")
     public User findById(Integer id) {
         System.out.println("---查数据库DB-----");
+        userMapper.deleteByPrimaryKey(id);
         return userMapper.selectByPrimaryKey(id);
     }
 

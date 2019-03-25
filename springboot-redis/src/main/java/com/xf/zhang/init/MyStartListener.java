@@ -19,11 +19,11 @@ public class MyStartListener implements ApplicationListener<ContextRefreshedEven
 
         UserMapper userMapper= contextRefreshedEvent.getApplicationContext().getBean(UserMapper.class);
 
-//        List<User> list= userMapper.selectAll();
-//        logger.info("User size {} "+list.size());
-//        list.forEach(action->{
-//            System.out.println(action.toString());
-//        });
+        List<User> list= userMapper.selectAll();
+        logger.info("User size:{}",list.size());
+        list.forEach(action->{
+            logger.info("User:{}",action.toString());
+        });
 
     }
 }

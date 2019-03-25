@@ -6,9 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cache.CacheManager;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.CachePut;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
@@ -20,8 +17,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.util.ClassUtils;
-
-
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Method;
@@ -156,7 +151,7 @@ public class RedisConfig {
                             key.append(param);
                         }
                     }
-                    logger.info("key----->"+key.toString());
+                    logger.info("key:{}",key.toString());
 
                     return key.toString();
                 }
