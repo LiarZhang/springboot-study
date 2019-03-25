@@ -21,4 +21,6 @@ public interface UserMapper {
     int updateByPrimaryKey(User record);
 
     List<User> getList(Map<String, Object> map);
+
+    List<User> selectAll();
 }

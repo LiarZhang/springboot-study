@@ -1,5 +1,8 @@
 package com.xf.zhang;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import org.apache.catalina.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,15 +20,15 @@ public class SpringbootHttpsApplicationTests {
     public void contextLoads() {
 
         //int [] array = new int [] {1,2,3,4,0,5,8,9,126};
-        String string="1000100011010";
+        String string="9080106013051";
         BitSet bitSet  = new BitSet(5);
         //将数组内容组bitmap
         for(int i=string.length()-1,k=0;i>=0;i--)
         {
            // System.out.println(i+"--->"+string.charAt(k++));
-            if((Integer.parseInt(String.valueOf(string.charAt(i)))==1)){
+            if((Integer.parseInt(String.valueOf(string.charAt(i)))!=0)){
                 System.out.println(i+"<xxxx>"+string.charAt(i));
-                bitSet.set(i, true);
+                bitSet.set(i);
             }
 
         }
@@ -36,7 +39,9 @@ public class SpringbootHttpsApplicationTests {
         for(int i=0;i< bitSet.length();i++){
             if(bitSet.get(i)){
                 j++;
+
             }
+            System.out.println(bitSet.get(i)+"<-------");
         }
         System.out.println(j);
     }
@@ -63,6 +68,12 @@ public class SpringbootHttpsApplicationTests {
         int number=1;
         char c=(number+"").charAt(0);
         System.out.println(c);
+    }
+
+    @Test
+    public void stringANDBitMap() {
+       // BitSet
+
     }
 
 }
