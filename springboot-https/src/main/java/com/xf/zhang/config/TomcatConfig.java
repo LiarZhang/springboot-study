@@ -35,6 +35,7 @@ public class TomcatConfig {
         connector.setPort(80);//表示用80端口来供http访问
         connector.setSecure(false);
         connector.setRedirectPort(443);//自动重定向到443端口,配置文件保持一致,这里为准
+        ////////
         return connector;
     }
 }
